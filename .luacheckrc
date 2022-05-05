@@ -1,11 +1,10 @@
-max_line_length = 80
-
 globals = {
-    'hud_fs',
-    'minetest',
+    'doom_hud'
 }
 
 read_globals = {
+    'hud_fs',
+    'minetest',
     string = {fields = {'split', 'trim'}},
     table = {fields = {'copy'}}
 }
